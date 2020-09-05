@@ -1,9 +1,9 @@
 # SparkFun_Pro_Micro_Qwiic_Mux_SX1509_Multi_Joystick
-Joystick project using MatthewH's Joystick library and SparkFun's SX1509 libary that allows for high inputs using I2C expanders across a MUX, thereby allowing high input counts across a single Arduino connected via USB
+Joystick project using MatthewH's Joystick library and SparkFun's SX1509 libary that allows for high inputs using I2C expanders across a MUX, thereby allowing high input counts across a single Arduino connected via USB.
 
 Project Background:
 
-This project is intended to be used with the flight simulator DCS World.  This project was started after the existing solutions I saw were inefficient from a cost and resource standpoint.  Existing high I/O solutions used in cockpit simulators use multiple expensive Arduino Mega's in a modular Master/Slave configuration or simply rely on each Arduino Mega to have its own USB port.  I want a solution that was more cost efficient per pin, while only occupying 1 USB slot.
+This project was the outflow of the desire to build a replica F/A-18c Hornet cockpit. It is intended to be used with the flight simulator DCS World.  This project was started after the existing solutions I saw were inefficient from a cost and resource standpoint.  Existing high I/O solutions used in cockpit simulators use multiple expensive Arduino Mega's in a modular Master/Slave configuration or simply rely on each Arduino Mega to have its own USB port.  I want a solution that was more cost efficient per pin, while only occupying 1 USB slot.
 
 A)  I'm only using it exclusively in VR for a mixed reality cockpit.  I have no need to drive outputs for displays, LED's, servos, etc.  Nor do I value driving magnetic switches.
 
